@@ -1,0 +1,310 @@
+body {
+  background: url(./img/zybj.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 楷体;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  background-repeat: no-repeat;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-inner {
+  display: flex;
+  width: 100%;
+  transition: transform 0.6s ease-in-out;
+}
+
+.ci {
+  width: 1200px;
+  color: #fff;
+  font-size: 70px;
+  position: absolute;
+  text-align: center;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.item {
+  flex: 0 0 100%;
+  height: 91vh;
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 80px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.left {
+  left: 25px;
+}
+
+.right {
+  right: 25px;
+}
+
+.dots {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+}
+
+.dots>li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+.dots .active {
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  background-color: #fff;
+}
+
+.osbern {
+  width: auto;
+  height: 1000px;
+  /*background-color: rgba(55, 167, 117, 0.3);*/
+}
+
+
+
+
+.header {
+  width: 100%;
+  height: 70px;
+  background-color: rgba(117, 179, 229, 0.5);
+}
+
+nav {
+  position: fixed;
+  font-size: 35px;
+  top: 0;
+  left: 0;
+  text-align: right;
+  line-height: 2;
+  background: rgb(226, 234, 241);
+  width: 100%;
+}
+
+.go-top {
+  position: fixed;
+  font-size: 25px;
+  right: 1em;
+  bottom: 1em;
+  color: rgb(36, 9, 70);
+}
+
+nav a {
+  padding: 0 1em;
+  color: rgba(24, 47, 159, 0.7);
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+body {
+  margin: 0;
+  font-size: 14px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  height: 100vh;
+  color: #fff;
+  text-align: center;
+  font-size: 5em;
+  line-height: 100vh;
+}
+
+.baidu {
+  font-size: 50px;
+  margin: 100px 0 50px 100px;
+}
+
+.osbern-photo {
+  float: left;
+  padding-left: 120px;
+  width: 670px;
+  height: 91%;
+  /*background-color: rgba(55, 57, 167, 0.3);*/
+}
+
+.osbern-write {
+  text-align: center;
+  font-size: 25px;
+  line-height: 50px;
+  float: right;
+  margin-right: 300px;
+  width: 500px;
+  height: 100%;
+  /*background-color: rgba(55, 57, 167, 0.3);*/
+}
+
+.base {
+  width: 100%;
+  height: 720px;
+  /*background-color: rgba(167, 55, 100, 0.3);*/
+}
+
+.base-lz {
+  width: 100%;
+  height: 720px;
+}
+
+
+
+.image {
+  border-radius: 20px;
+  width: 250px;
+  height: auto;
+  transition: transform 0.3s ease;
+  margin: 40px;
+}
+
+.image:hover {
+  transform: scale(1.2);
+}
+
+ul {
+  width: 1280px;
+  height: 600px;
+  border: 1px solid;
+  margin: 50px auto;
+  overflow: hidden;
+}
+
+ul li {
+  width: 110px;
+  height: 600px;
+  float: left;
+  transition: width 0.5s;
+}
+
+ul li img {
+  width: 400px;
+  height: 600px;
+}
+
+ul:hover li {
+  width: 100px;
+}
+
+ul li:hover {
+  width: 400px;
+}
+
+.more {
+  color: black;
+  font-size: 40px;
+  float: right;
+  margin-right: 20px;
+}
+
+.base-lx {
+  float: left;
+  width: 50%;
+  height: 50%;
+
+}
+
+.base-sa {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 252px;
+  width: 70%;
+  height: 1000px;
+}
+
+.img-lx {
+  transform: rotate(15deg);
+  width: 250px;
+  height: 370px;
+  margin-top: 60px;
+  margin-left: 25px;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+
+.img-lx:hover {
+  transform: scale(1.2);
+}
+
+.lxjs {
+  padding-top: 20%;
+  text-align: center;
+  float: left;
+  width: 290px;
+  height: 400px;
+}
+
+h1,
+h2 {
+  margin-bottom: 30px;
+}
+
+h3 {
+  line-height: 30px;
+}
+
+.goods {
+  margin: 40px 0 0 90px;
+}
+
+.goods-item {
+  width: 530px;
+  height: auto;
+  float: left;
+}
+
+.goods-itemn {
+  margin-left: 200px;
+  float: left;
+}
+
+.goods-itemo {
+  margin-left: 410px;
+}
